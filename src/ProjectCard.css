@@ -1,0 +1,102 @@
+.project-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 420px;
+}
+
+.img-container {
+    width: 40%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-img {
+    height: 100%;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 2%;
+}
+
+.card-title {
+    text-align: start;
+    font-size: clamp(20px, 3vw, 28px);
+    margin-top: 1%;
+    font-weight: 500;
+}
+
+.card-desc {
+    font-size: clamp(12px, 1.5vw, 16px);
+    line-height: 150%;
+    padding: 2% 2% 2% 0%;
+}
+
+.card-skills {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.skill-item {
+    padding: 1%;
+    font-size: clamp(1px, 2vw, 16px);
+    color: black;
+    border: 2px solid #76FF03;
+    border-radius: 5px;
+}
+
+.card-buttons {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card-button {
+    height: 2vw;
+    min-height: 32px;
+    font-size: clamp(1px, 2vw, 12px);
+    padding: 1% 2%;
+    text-wrap: nowrap;
+}
+
+.card-btn-img {
+    height: 1.3vw;
+    min-height: 16px;
+}
+
+@media (max-width: 750px) {
+    .project-card {
+        flex-direction: column; /* Stack image on top */
+        height: auto; /* Allow height to adjust */
+    }
+    
+    .img-container {
+        width: 100%;
+        height: auto; /* Adjust height */
+        max-height: 300px;
+    }
+    
+    .card-img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card-details {
+        width: 100%;
+        margin: 10px; /* Add some space between image and details */
+
+    }
+}

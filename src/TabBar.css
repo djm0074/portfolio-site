@@ -1,0 +1,46 @@
+.tab-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tab-bar {
+    display: center;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  
+.tab-bar button {
+  padding: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1px, 2vw, 24px);
+  cursor: pointer;
+  border: none;
+  background: #C5CAE9;
+  vertical-align: bottom;
+}
+
+.tab-bar button:hover {
+  background: #9FA8DA;
+  color: #76FF03
+}
+
+.tab-bar button.active:hover {
+  background: #303F9F;
+  color: #76FF03
+}
+
+.tab-bar button.active {
+  background: #1A237E;
+  color: white;
+}
+
+.tab-content {
+  padding: 20px;
+  border: 2px solid #1A237E;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+}

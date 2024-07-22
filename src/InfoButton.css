@@ -1,0 +1,29 @@
+.custom-button {
+    display: flex;
+    align-items: center;
+    background-color: #5C6BC0;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #303F9F;
+    color: #76FF03;
+}
+
+.button-img {
+    height: 5vw;
+    max-height: 48px;
+    margin-right: 5px;
+}
+
+.arrow-icon {
+    margin-left: 5px;
+    transform: rotate(-45deg);
+}
+
+.custom-button:hover .arrow-icon {
+    transform: none;
+}

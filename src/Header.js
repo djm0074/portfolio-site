@@ -16,7 +16,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="button-row">
-                <InfoButton className="header-button" icon="resume-logo.png" link="daniel-mancini-resume.pdf" label="Resume" />
+                <InfoButton className="header-button" icon="resume-logo.png" link="Daniel-Mancini-Resume.pdf" label="Resume" />
                 <InfoButton className="header-button" icon="linkedin-logo.png" link="https://www.linkedin.com/in/daniel-mancini-856402169/" label="LinkedIn" />
                 <InfoButton className="header-button" icon="github-logo-white.png" link="https://github.com/djm0074" label="GitHub" />
             </div>

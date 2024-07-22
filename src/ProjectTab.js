@@ -30,8 +30,8 @@ const ProjectTab = () => {
             desc: 'I developed my portfolio website to gain experience with JavaScript and React. I avoided using extra libraries or pre-built components to focus on my own front-end development skills. This approach allowed me to create a custom and optimized user experience from scratch.',
             skills: ['JavaScript', 'React', 'HTML', 'CSS'],
             buttons: [
-                { icon: 'rocket-icon.png', link: '/localhost:3000', label: 'Live Demo' },
-                { icon: 'github-logo-white.png', link: 'https://github.com/dmkrovichmix/cssp/tree/master', label: 'View Source' },
+                { icon: 'rocket-icon.png', link: 'https://djm0074.github.io/portfolio-site/', label: 'Live Demo' },
+                { icon: 'github-logo-white.png', link: 'https://github.com/djm0074/portfolio-site', label: 'View Source' },
             ],
         },
         {

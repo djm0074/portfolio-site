@@ -15,13 +15,13 @@
 .my-name {
     font-size: clamp(32px, 5vw, 100px);
     text-align: start;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 .subtext {
     font-size: clamp(1px, 2vw, 28px);
     text-align: start;
-    text-wrap: nowrap;
+    white-space: nowrap;
     padding-left: 10px;
     font-style: italic;
 }
@@ -31,7 +31,7 @@
     flex-direction: column;
     align-items: flex-start;
     font-size: clamp(10px, 1.5vw, 100px);
-    text-wrap: nowrap;
+    white-space: nowrap;
     justify-content: center;
 }
 

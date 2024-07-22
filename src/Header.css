@@ -13,7 +13,7 @@
 }
 
 .my-name {
-    font-size: clamp(32px, 5vw, 100px);
+    font-size: clamp(24px, 5vw, 100px);
     text-align: start;
     white-space: nowrap;
 }

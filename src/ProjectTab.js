@@ -25,7 +25,7 @@ const ProjectTab = () => {
             ],
         },
         {
-            image: 'portfolio-thumbnail.png',
+            image: 'portfolio-img.png',
             title: 'My Portfolio (this site!)',
             desc: 'I developed my portfolio website to gain experience with JavaScript and React. I avoided using extra libraries or pre-built components to focus on my own front-end development skills. This approach allowed me to create a custom and optimized user experience from scratch.',
             skills: ['JavaScript', 'React', 'HTML', 'CSS'],

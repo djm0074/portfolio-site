@@ -11,8 +11,8 @@ const Header = () => {
                     <div className="subtext">Passionate developer. Eager learner.</div>
                 </div>
                 <div className="info-container">
-                    <div><strong>Email</strong>: dannyjmancini@gmail.com</div>
-                    <div><strong>Phone</strong>: (302) 757-4521</div>
+                    <div><strong>Email:</strong> dannyjmancini@gmail.com</div>
+                    <div><strong>Phone:</strong> (302) 757-4521</div>
                 </div>
             </div>
             <div className="button-row">

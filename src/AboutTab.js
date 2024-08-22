@@ -7,7 +7,7 @@ const AboutTab = () => {
         <div className="about-container">
             <div className="about-img-container">
                 <img src='grand-canyon.png' alt='beach photo' className="about-img"/>
-                As a recent Computer Science graduate from West Virginia University, I bring a fresh and enthusiastic perspective to the tech world. I'm very passionate about technology and always eager to learn new things. I'm particularly interested in opportunities in Software Development, I.T., or Technical Sales.
+                As a recent Computer Science graduate from West Virginia University, I bring a fresh and enthusiastic perspective to the tech world. I'm very passionate about technology and always eager to learn new things. Currently, I’m a Sales Enablement Engineer at Wander, where I focus on optimizing systems, integrating innovative tools, and supporting our team’s success in a dynamic environment.
                 <br /><br />
                 Outside of my professional life, I have a deep passion for chess and I'm an avid sports enthusiast who enjoys exercising regularly. I have an amazing girlfriend named Laria and we share our home with the cutest dog in the world, Harper.
             </div>
